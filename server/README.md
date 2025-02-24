@@ -14,7 +14,12 @@
 - 2023-06-09  
 新增了 /markCheckedStudent 接口，用来标记毕业生的交接情况  
 前端部分修改对应请求处的 js 逻辑
-## 路径备注
-打包好的 `.jar` 放置于服务器 `/home/lab` 目录中
+- 2024-11-04  
+mysql账号root密码root
+打包操作
+mvn clean package
+target目录下生成Harvest-1.0.jar。
+打包好的 `.jar` 放置于服务器(192.168.100.203,需要找袁俊峰老师申请VPN账号) `/hdu/lab` 目录中
+启动命令：nohup java -jar Harvest-1.0.jar > output.log 2>&1 &
 
 
